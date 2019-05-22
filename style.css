@@ -3,14 +3,14 @@
 body {
 	font-family: 'Didact Gothic', sans-serif;
 	font-weight: 300;
-	padding-top: 7%;
+	padding-top: 6%;
 }
 
 
 .container {
   display: flex;
   flex-direction: row;
-  margin:2%;
+  justify-content: center;
 }
 
 .vertical-container{
@@ -22,32 +22,61 @@ body {
 
 .big-button{
 	background-color: #da8cf7;
+	border-radius: 12%;
+	text-align: center;
+	padding: 3%;
+	margin:2%;
+	text-decoration: none;
+	border: none;
+	font-family: 'Didact Gothic';
+	color:#000000;
+}
+
+.small-button{
+	background-color: #da8cf7;
 	border-radius: 10%;
 	text-align: center;
 	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left:1%;
+	text-decoration: none;
+	border: none;
+	font-family: 'Didact Gothic';
+	color:#000000;
+}
+.h3{
+	padding-right: 4.5%;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-right: 1%;
 	margin-left:1%;
 	text-decoration: none;
+	font-family: 'Didact Gothic';
 	color:#000000;
 }
 .bar{
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
-	margin-bottom: 2%;
-	margin-top: 2%;
-	padding-top:1%;
-	padding-bottom:1%; 
+	align-items: center;
+	margin-bottom: 0.2%;
+	margin-top: 0.2%;
 	text-decoration: none;
-	height:5%;
-	
+	height:4%;
 }
 .big-button:hover, .big-button:active{
 	background-color:#b27dc6;
 	text-decoration: none;
 	color:#ffffff;
+}
+
+.input-conversation{
+	background-color:#d9abea;
+	border-radius: 10%;
+	font-family: 'Didact Gothic';
+	height:auto;
 }
 
 
@@ -58,14 +87,17 @@ body {
     top:0;
     width: 100%;
     height: auto;
+    margin:none;
+    padding:none;
 }
 .navbar .navbar-brand{
 	color:#da8cf7;
 	text-decoration: none;
-	margin-left: 5%;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight:bold;
 	display:block;
+
+    margin-left: 5%
 
 }
 
@@ -97,4 +129,8 @@ body {
 	font-size: 1vw;
 	color: #485863;
 }
+#speakerClips{
+	padding-left: 3.5%
+}
+
 

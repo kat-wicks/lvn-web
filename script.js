@@ -1,5 +1,5 @@
 
-const height =Math.min(window.innerHeight/2, 500);
+const height =Math.min(window.innerHeight/2.2, 500);
 const width =Math.min(window.innerWidth/2.5, 700);
 const margin = ({top: 20, right: 20, bottom: 20, left: 30});
 //let conversation = document.getElementById("conversation").value;
@@ -83,10 +83,10 @@ function generateClipBar(conversation, clips) {
   const bar = document.getElementById('speakerClips');
   bar.className = 'bar';
   for(speaker in clips){
-    console.log(clips[speaker]);
     clipButton = document.createElement('a');
+     clipButton.innerHTML = speaker;
     clipButton.className = 'big-button'
-    clipButton.innerHTML = speaker;
+   
     clipButton.setAttribute('href',"https://app.lvn.org/conversation/" +conversation+"?t="+Math.round(clips[speaker]).toString());
     bar.appendChild(clipButton);
   }
