@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cortico Conversation Analysis</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset=utf-8 />
+</head>
+
+<body>
+	<!-- navbar -->
+	<!-- <nav class="navbar"> -->
+	<div class= "navbar">
+		<div class="navbar-brand">
+			<p>LVN conversation analysis</p>
+		</div>
+	</div>
+	<!-- </nav> -->
+
+	<!-- conversation page -->
+
+	<div>
+		<div class = "container">
+		<input type="text" name="conversation" id ="conversation" placeholder="Conversation Number (0-146)" style = "width:40%"></input>
+		<input type="button" name="conversation-button" id ="conversation-button" placeholder="Switch">Update Conversation</input>
+		
+		</div>
+		<div id="speakerClips"></div>
+		<div class = "container bar">
+			<div id="werGraph">
+				<h4>Word Error Rate over Time              </h4>
+			</div>
+		
+			<div id = "speakerGraph">
+				<h4>               Mean WER vs. Standard Deviation of WER/Turn per Speaker</h4>
+			</div>
+		</div>
+	</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js" integrity="sha256-k9RyZhvMj2bg0fd8L3IE41t0HpTXnivMoePN/Ksq250=" crossorigin="anonymous"charset="utf-8"></script>
+<script src="https://d3js.org/d3.v5.js"></script>
+ <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"charset="utf-8"></script>
+  <script src='script.js'></script>
+
+</body>
+
+</html>
+
+
+
