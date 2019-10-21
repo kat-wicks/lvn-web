@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+body {
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: 300;
+	font-size = 1vw;
+	padding-top: 6%;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.vertical-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.big-button{
+	background-color: #da8cf7;
+	border-radius: 12%;
+	text-align: center;
+	padding: 0.5vw;
+	margin: 0.3vw;
+	text-decoration: none;
+	border: none;
+	font-family: 'Didact Gothic';
+	color:#000000;
+}
+
+.small-button{
+	background-color: #da8cf7;
+	border-radius: 10%;
+	text-align: center;
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left:1%;
+	text-decoration: none;
+	border: none;
+	font-family: 'Didact Gothic';
+	color:#000000;
+}
+.h3{
+	padding-right: 4.5%;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 1%;
+	margin-left:1%;
+	text-decoration: none;
+	font-family: 'Didact Gothic';
+	color:#000000;
+}
+.bar{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.1vw;
+	margin-top: 0.1vw;
+	text-decoration: none;
+	height:4%;
+}
+.big-button:hover, .big-button:active{
+	background-color:#b27dc6;
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.input-conversation{
+	background-color:#d9abea;
+	border-radius: 10%;
+	font-family: 'Didact Gothic';
+	height:auto;
+}
+
+
+/* navbar classes */
+.navbar {
+    background-color: #8518ad;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: auto;
+    margin:none;
+    padding:none;
+}
+.navbar .navbar-brand{
+	color:#da8cf7;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight:bold;
+	display:block;
+
+    margin-left: 5%
+
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+	
+	color:#b27dc6;
+
+}
+
+.card {
+	margin: 5px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #ecc6ef;
+	font-size: 12px;
+	border: none;
+}
+
+.divider {
+	width:5%;
+}
+
+.title-text{
+	font-size: 16px;
+	color:#da8cf7;
+	font-weight:bold;
+}
+.card-text{
+	font-size: 1vw;
+	color: #485863;
+}
+#speakerClips{
+	padding-left: 3.5%
+}
+
+
